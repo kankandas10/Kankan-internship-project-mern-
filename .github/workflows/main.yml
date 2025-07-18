@@ -17,6 +17,6 @@ jobs:
         env:
           JENKINS_URL: 'http://34.207.207.146:8080'
           JENKINS_USER: 'KankanD1024'
-          JENKINS_API_TOKEN: '11eb8bf9962b1f37738665a2df10d23ec2'
+          JENKINS_API_TOKEN: '11190b66c8b14c4afcb53be61bf302048b'
           JENKINS_JOB_NAME: 'Freestyle-project'
           JENKINS_TRIGGER_TOKEN: 'trigger-from-github'
