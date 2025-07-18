@@ -40,6 +40,8 @@ RAZORPAY_KEY_SECRET=your_razorpay_secret_key
 STRIPE_SECRET_KEY=your_stripe_secret_key
 
 
+## Jenkins-pipeline-trigger checking
+Hi hello
 
 
 ### 1. Clone the repository
