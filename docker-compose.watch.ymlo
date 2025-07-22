@@ -1,0 +1,27 @@
+watch:
+  backend:
+    paths:
+      - ./backend
+    extensions:
+      - js
+      - json
+  frontend:
+    paths:
+      - ./frontend
+    extensions:
+      - js
+      - jsx
+      - ts
+      - tsx
+      - css
+  frontend:
+    paths:
+      - ./admin
+    extensions:
+      - js
+      - jsx
+      - ts
+      - tsx
+      - css
+
+
