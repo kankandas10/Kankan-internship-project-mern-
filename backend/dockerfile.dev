@@ -1,0 +1,16 @@
+FROM node:18
+
+# Set working directory
+WORKDIR /app
+
+# Copy all files
+COPY . .
+
+# Install dependencies
+RUN npm install
+
+# Expose the backend port
+EXPOSE 4000
+
+# Start the backend app
+CMD ["node", "app.js"]
