@@ -12,18 +12,6 @@ pipeline {
             }
         }
 
-        stage('Clean Up Previous Containers') {
-            steps {
-                // Remove old conflicting containers
-                sh '''
-                  docker rm -f admin || true
-                  docker rm -f frontend || true
-                  docker rm -f backend || true
-                  docker rm -f mongo || true
-                '''
-            }
-        }
-
         stage('Build & Run with Docker Compose') {
             steps {
                 sh 'docker compose down'
@@ -36,6 +24,13 @@ pipeline {
                 sh 'docker ps'
             }
         }
+
+        // Optional: Add test or lint stage here
+        // stage('Run Tests') {
+        //     steps {
+        //         sh 'docker exec backend npm test'
+        //     }
+        // }
 
         stage('Cleanup Old Images (Optional)') {
             steps {
@@ -50,3 +45,7 @@ pipeline {
         }
     }
 }
+
+
+
+
