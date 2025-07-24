@@ -15,10 +15,10 @@ jobs:
           curl -X POST "$JENKINS_URL/job/$JENKINS_JOB_NAME/build?token=$JENKINS_TRIGGER_TOKEN" \
             --user "$JENKINS_USER:$JENKINS_API_TOKEN"
         env:
-          JENKINS_URL: 'http://:8080'
-          JENKINS_USER: ''
-          JENKINS_API_TOKEN: ''
-          JENKINS_JOB_NAME: 'Freestyle-project'
+          JENKINS_URL: 'http://16.170.140.128:8080'
+          JENKINS_USER: 'Sattwik'
+          JENKINS_API_TOKEN: '11ecac409b017881fe860cbc6523278adc'
+          JENKINS_JOB_NAME: 'FreeStyleProject'
           JENKINS_TRIGGER_TOKEN: 'trigger-from-github'
           # JENKINS_URL: 'http://localhost:8080'
           # JENKINS_USER: 'KankanD1024'
