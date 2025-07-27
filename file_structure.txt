@@ -1,0 +1,44 @@
+.
+├── admin
+│   ├── Dockerfile
+│   ├── index.html
+│   ├── node_modules
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── postcss.config.js
+│   ├── public
+│   ├── README.md
+│   ├── src
+│   ├── tailwind.config.js
+│   ├── vercel.json
+│   └── vite.config.js
+├── backend
+│   ├── config
+│   ├── controllers
+│   ├── Dockerfile
+│   ├── middleware
+│   ├── models
+│   ├── node_modules
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── routes
+│   └── server.js
+├── docker-compose.watch.ymlo
+├── docker-compose.yml
+├── file_structure.txt
+├── frontend
+│   ├── Dockerfile
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── postcss.config.js
+│   ├── public
+│   ├── README.md
+│   ├── src
+│   ├── tailwind.config.js
+│   ├── vercel.json
+│   └── vite.config.js
+├── Jenkinsfile
+└── README.md
+
+15 directories, 27 files
